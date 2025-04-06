@@ -2,10 +2,14 @@
   "name": "quick-copy-for-ai",
   "displayName": "quick-copy-for-ai",
   "description": "Quick Copy file contents to build Context For AI",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "RinorMaloku",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rinormaloku/quick-copy-for-ai"
+  },
   "engines": {
-    "vscode": "^1.99.0"
+    "vscode": "^1.66.0"
   },
   "categories": [
     "AI"
@@ -51,7 +55,7 @@
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
     "@types/tmp": "^0.2.6",
-    "@types/vscode": "^1.99.0",
+    "@types/vscode": "^1.66.0",
     "@typescript-eslint/eslint-plugin": "^8.28.0",
     "@typescript-eslint/parser": "^8.28.0",
     "@vscode/test-cli": "^0.0.10",
